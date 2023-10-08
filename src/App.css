@@ -6,12 +6,12 @@
 }
 
 .App {
-  mix-blend-mode: overlay;
+  
   background-color: var(--cream);
   display: flex;
   flex-direction: column;
    
-  overflow: hidden;
+  
 }
 
 
