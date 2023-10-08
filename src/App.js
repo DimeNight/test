@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+// import ContactForm from "./components/ContactMe/ContactMe";
+// import Footer from "./components/Footer/Footer";
+// import Hero from "./components/Hero/Hero";
+// import Program from "./components/Hero/Program/Program";
+// import ImageSlider from "./components/Slider/Slider";
+// import { slide } from "./components/Slider/slide";
+//
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn It
-        </a>
-      </header>
+      {/* <Hero />
+      <Program />
+      <ImageSlider slides={slide} id="ExtraService" /> */}
+      {/* <Testimonial /> */}
+      Hello
+      {/* <ContactForm
+        className="form"
+        style={{ backgroundColor: "var(--green)", marginBottom: "0" }}
+      />
+      <Footer className="footer" style={{ marginTop: "0" }} /> */}
+      
     </div>
   );
 }
